@@ -22,3 +22,19 @@ int main()
     vector<int> v;
     printSubsequence(arr, n, 0, v);
 }
+
+
+
+// // By taking input from the user
+// int main () {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     cout << "Enter the value in array: ";
+//     vector<int> arr(n);
+//     for (int i=0; i<n; i++) {
+//         cin >> arr[i];
+//     }
+//     vector<int> v;
+//     printSubsequence(arr, n, 0, v);
+// }

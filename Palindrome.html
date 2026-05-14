@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let num;
+let original = num;
+let rev = 0;
+
+while (num > 0) {
+  let digit = num % 10;
+  rev = rev * 10 + digit;
+  num = Math.floor(num / 10);
+}
+
+if (original == rev) {
+  console.log << "Given number is a Palindrome";
+} else {
+  console.log << "Given number is not a Plaindrome";
+}
+
+</script>
